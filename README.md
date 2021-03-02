@@ -1,2 +1,3 @@
-# teamLeadTest
-test
+npm install
+gulp
+

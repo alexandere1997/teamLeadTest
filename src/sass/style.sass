@@ -1,0 +1,333 @@
+@import "fonts"
+.header
+    display: flex
+    justify-content: center
+    align-items: center
+    &__container
+        width: 90%
+        z-index: 10
+    &__information
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__title
+        font-family: sans-serif
+        color: #fff
+        text-align: center
+        font-size: 50px
+        margin: 0
+        margin-top: 40px
+        margin-bottom: 40px
+        text-transform: uppercase
+    &__text
+        font-family: sans-serif
+        color: #fff
+        font-size: 22px
+    &__btn
+        text-decoration: none
+        color: #fff
+        background-color: #a4a4
+        width: 200px
+        height: 40px
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 0 auto
+        font-family: sans-serif
+        font-size: 24px
+        margin-top: -25px
+    &__video
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: block;
+        overflow: hidden;
+        height: 632px;
+        video
+            min-width: 100%;
+            min-height: 100%;
+            width: 100%;
+            height: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
+            -o-object-position: center center;
+            object-position: center center;
+.composition
+    display: flex
+    justify-content: center
+    align-items: center
+    background: rgb(238,238,174);
+    background: radial-gradient(circle, rgba(238,238,174,1) 0%, rgba(47,70,255,1) 100%);
+    &__container
+        width: 90%
+    &__image
+        width: 200px
+        border-radius: 80px
+    &__inner
+        display: flex
+        justify-content: space-between
+    &__block
+        text-align: center
+    &__wrap
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    &__btn
+        text-decoration: none
+        color: #fff
+        background-color: #a4a4
+        width: 200px
+        height: 40px
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 0 auto
+        font-family: sans-serif
+        font-size: 24px
+        margin-bottom: 100px
+    &__title
+        font-family: sans-serif
+        color: #fff
+        text-align: center
+        font-size: 50px
+        margin: 0
+        margin-top: 40px
+        margin-bottom: 40px
+        text-transform: uppercase
+    &__text
+        font-family: sans-serif
+        color: #fff
+        font-size: 22px
+.testimonials
+    display: flex
+    justify-content: center
+    align-items: center
+    background: rgb(73,70,166);
+    background: linear-gradient(90deg, rgba(73,70,166,1) 9%, rgba(189,215,207,1) 45%, rgba(47,179,255,1) 93%);
+    &__container
+        width: 90%
+    &__img
+        width: 50px
+    &__inner
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 100px
+    &__item
+        width: 300px
+        background-color: #fff
+        border-radius: 10px
+        padding: 20px
+    &__title
+        font-family: sans-serif
+        color: #fff
+        text-align: center
+        font-size: 50px
+        margin: 0
+        margin-top: 40px
+        margin-bottom: 40px
+        text-transform: uppercase
+    &__text
+        font-family: sans-serif
+        color: #000
+        font-size: 22px
+    &__name
+        font-family: sans-serif
+        color: #000
+        font-size: 32px
+        margin: 0
+.promo
+    display: flex
+    justify-content: center
+    align-items: center
+    background: rgb(138,88,212);
+    background: linear-gradient(90deg, rgba(138,88,212,1) 1%, rgba(83,93,140,1) 65%, rgba(33,2,68,1) 100%);
+    &__container
+        width: 90%
+    &__text
+        font-family: sans-serif
+        color: #fff
+        font-size: 22px
+    &__inner
+        display: flex
+        justify-content: space-around
+        align-items: center
+    &__box
+        margin-top: 80px
+        margin-bottom: 80px
+    &__btn
+        text-decoration: none
+        color: #fff
+        background-color: #a4a4
+        width: 200px
+        height: 40px
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 0 auto
+        font-family: sans-serif
+        font-size: 24px
+        margin-top: 60px
+.footer
+    display: flex
+    justify-content: center
+    align-items: center
+    background: rgb(64,23,125);
+    background: linear-gradient(90deg, rgba(64,23,125,1) 1%, rgba(44,58,121,1) 65%, rgba(33,2,68,1) 100%);
+    &__container
+        width: 90%
+    &__inner
+        display: flex
+        justify-content: space-around
+        align-items: center
+    &__title
+        font-family: sans-serif
+        color: #fff
+        text-align: center
+        font-size: 50px
+        margin: 0
+        margin-top: 40px
+        margin-bottom: 40px
+        text-transform: uppercase
+    &__timer
+        text-align: center
+        color: #fff
+        font-family: sans-serif
+        font-size: 24px
+    &__form
+        background-color: #fff
+        height: 200px
+        padding: 20px
+        border-radius: 10px
+    &__name
+        display: flex
+        flex-direction: column
+    &__phone
+        display: flex
+        flex-direction: column
+        margin-top: 20px
+    &__input
+        width: 300px
+        height: 30px
+        font-family: sans-serif
+        font-size: 15px
+        padding-left: 10px
+        box-sizing: border-box
+    &__label
+        font-family: sans-serif
+        font-size: 20px
+    &__btn
+        width: 300px
+        height: 50px
+        margin-top: 20px
+        background-color: red
+        border: none
+        color: #fff
+        font-family: sans-serif
+        font-size: 24px
+        cursor: pointer
+    &__price
+        display: flex
+        justify-content: space-around
+        align-items: center
+    &__old
+        font-family: sans-serif
+        color: #fff
+        text-decoration: line-through
+        font-size: 18px
+    &__new
+        font-family: sans-serif
+        color: #ee1830
+        font-size: 30px
+        animation: blink2 1s linear infinite;
+@-webkit-keyframes blink2
+  100%
+    color: rgba(34, 34, 34, 0)
+
+@keyframes blink2
+  100%
+    color: rgba(34, 34, 34, 0)
+@media ( max-width:  1199px)
+    .testimonials
+        &__inner
+            flex-direction: column
+        &__item
+            margin-bottom: 20px
+@media ( max-width: 991px )
+    .composition
+        &__inner
+            flex-direction: column
+        &__item
+            margin-top: 20px
+            margin-bottom: 20px
+    .header
+        &__information
+            flex-direction: column
+        &__video 
+            height: 792px;
+        &__btn
+            margin-bottom: 42px;
+            margin-top: 50px;
+        &__img
+            width: 70%
+        &__item
+            display: flex;
+            flex-direction: column
+            align-items: center
+            justify-content: center;
+@media ( max-width: 767px )
+    .footer
+        &__inner
+            flex-direction: column
+        &__product
+            margin-top: 60px
+    .promo
+        &__inner
+            flex-direction: column
+    .header
+        &__text
+            font-size: 18px
+@media ( max-width: 575px )
+    .header
+        &__video
+            height: 816px;
+        &__img
+            width: 70%
+        &__item
+            text-align: center
+    .composition
+        &__img
+            width: 80%
+        &__title
+            margin-top: 120px
+    .testimonials
+        &__item
+            width: 220px
+    .promo
+        &__images
+            display: flex
+            justify-content: center
+            align-items: center
+        &__img
+            width: 70%
+        &__text
+            text-align: center
+    .footer
+        &__input
+            width: 100%
+        &__btn
+            width: 100%
+        &__product
+            display: flex;
+            flex-direction: column;
+            align-items: center
+            justify-content: center
+        &__img
+            width: 70%
+    
+    
+    
+    
